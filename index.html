@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GiieArt - Diseñadora Gráfica</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700,900|Staatliches" rel="stylesheet">
+    <!--CDN Tipografias Angie-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&family=Roboto&display=swap" rel="stylesheet">
+    <!--.CDN Tipografias Angie-->
+    <!--CDN Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400&display=swap" rel="stylesheet">
+    <!--Favicon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!--.Favicon-->
+    <!--CDN AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+</head>
+<body>
+  
+    <header class="header">
+
+        <div class="header__layer"></div>
+
+        <!--Menu Icono-->
+
+        <div class="header__flex">
+            <div class="header__menu">
+                <i class="fas fa-bars" onclick="openNav()"></i>
+            </div>
+            <div class="flex__menu">
+                <a class="menu__item" href="english.html"><img src="img/english.png" alt="english"></a>
+                <a class="menu__item" onclick="nochePaz()"><i class="fas fa-moon"></i></a>
+            </div>
+        </div>
+
+        
+   
+        <!--.Menu Icono-->
+
+        <!-- The overlay -->
+
+
+        <div class="header__title">
+            <img class="header__logo" data-aos="fade-up" data-aos-duration="1000" src="img/logopng.png" alt="logo">
+            <p data-aos="fade-up" data-aos-duration="1500" class="header__title-name">Angie Murcia Murcia Murcia</p>
+            <p data-aos="fade-up" data-aos-duration="1500" class="header__title-pro">Diseñadora Gráfica & Illustradora</p>
+        </div>
+    </header>
+
+    <!--Menu Movil-->
+
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <a href="#aboutme">Acerca de mi</a>
+            <a href="#studiesexp">Estudios & Experiencias</a>
+            <a href="#skills">Habilidades</a>
+            <a href="#portfolio">Portafolio</a>
+            <a href="#contactme">Contacto</a>
+        </div>
+    </div>
+
+    <!--.Menu Movil-->
+
+
+    <section class="aboutme contenedor">
+        <div id="aboutme" data-aos="fade-right"  class="aboutme__head">
+            <h2 class="aboutme__title">Acerca de mi</h2>
+        </div>
+
+        <div class="aboutme__body">
+            <div class="aboutme__picture">
+                <img src="img/pp.png" alt="Foto de perfil Angie">
+            </div>
+
+            <div class="aboutme__text">
+                <p>Comprometida y apasionada por el aprendizaje, habilitada para
+                    el trabajo bajo presión con responsabilidad y productividad en
+                    las funciones asignadas. Facilidad de expresión y excelente
+                    presentación personal 
+                </p>
+                
+                <h4 class="aboutme__languages">Idiomas</h4>
+
+                <div class="aboutme__flex">
+                    <div class="language">
+                        <img class="language__img" src="img/spanish.png" alt="Idioma espanol">
+                        <div class="language__text">
+                            <p class="language__name">Español</p>
+                            <p class="language__lvl">Nativo</p>
+                        </div>
+                    </div><!--Language Item-->
+
+                    <div class="language">
+                        <img class="language__img" src="img/english.png" alt="Idioma espanol">
+                        <div class="language__text">
+                            <p class="language__name">Inglés</p>
+                            <p class="language__lvl">Nivel: B1</p>
+                        </div>
+                        
+                    </div><!--Language Item-->
+
+                    <div class="language">
+                        <img class="language__img" src="img/japon.png" alt="Idioma espanol">
+                        <div class="language__text">
+                            <p class="language__name">Japones</p>
+                            <p class="language__lvl">Nivel: N5</p>
+                        </div>
+                    </div><!--Language Item-->
+                </div>
+            </div>
+            
+        </div>
+
+        <!--Cualidades-->
+        <div class="aboutme__qualities">
+            <h3 class="aboutme__subtitle">Cualidades</h3>
+
+            <!--Grid Cualidades-->
+            <div class="grid__qualities">
+
+                <div class="quality__item">
+                    <i class="fas fa-lightbulb"></i>
+                    <p class="quality__text">Creatividad</p>
+                </div><!--Item-->
+
+                <div class="quality__item">
+                    <i class="fas fa-comments"></i>
+                    <p class="quality__text">Comunicacion</p>
+                </div><!--Item-->
+
+                <div class="quality__item">
+                    <i class="fas fa-cogs"></i>
+                    <p class="quality__text">Versatilidad</p>
+                </div><!--Item-->
+
+                <div class="quality__item">
+                    <i class="fas fa-puzzle-piece"></i>
+                    <p class="quality__text">Organizacion</p>
+                </div><!--Item-->
+
+                <div class="quality__item">
+                    <i class="fas fa-users"></i>
+                    <p class="quality__text">Equipo</p>
+                </div><!--Item-->
+
+                <div class="quality__item">
+                    <i class="fas fa-signal"></i>
+                    <p class="quality__text">Proactividad</p>
+                </div><!--Item-->
+
+            </div>
+        </div>
+        <!--.Cualidades-->
+
+        <!--Intereses-->
+        <div class="aboutme__interests">
+            <h3 class="aboutme__subtitle">Intereses</h3>
+
+            <!--Grid Cualidades-->
+            <div class="grid__interests">
+
+                <div class="interest__item">
+                    <img class="interest__img" src="./img/videojuegos.jpg" alt="Videojuegos">
+                    <div class="overlay__img">
+                      <div class="text">Videojuegos</div>
+                    </div>
+                </div><!--Item-->
+
+                <div class="interest__item">
+                    <img class="interest__img" src="./img/cine.jpg" alt="Cine">
+                    <div class="overlay__img">
+                      <div class="text">Cine</div>
+                    </div>
+                </div><!--Item-->
+
+                <div class="interest__item">
+                    <img class="interest__img" src="./img/musica.jpg" alt="Musica">
+                    <div class="overlay__img">
+                      <div class="text">Música</div>
+                    </div>
+                </div><!--Item-->
+
+                <div class="interest__item">
+                    <img class="interest__img" src="./img/japon2.jpg" alt="Japon">
+                    <div class="overlay__img">
+                      <div class="text">Japón</div>
+                    </div>
+                </div><!--Item-->
+
+                <div class="interest__item">
+                    <img class="interest__img" src="./img/idiomas.jpg" alt="Idiomas">
+                    <div class="overlay__img">
+                      <div class="text">Idiomas</div>
+                    </div>
+                </div><!--Item-->
+
+        </div>
+        
+    </section>
+
+    <section id="studiesexp" class="studies ">
+        <div class="banner__studiesexp">
+            <h2 class="studiesexp__title">Estudios & Experiencias</h2>
+        </div>
+
+        <div class="contenedor">
+            <div class="stuexp__grid">
+                <div class="stupexp__studies">
+                    <p class="stuexp__title">Estudios</p>
+
+                    <div class="stuexp__item">
+                        <div class="stuexp__img">
+                            <i class="fas fa-school"></i>
+                        </div>
+                        <div class="stuexp__text">
+                            <p class="stuexp__name">IED: La Juan Evangelista Gómez</p>
+                            <p class="stuexp__degree">Titulo: Bachiller</p>
+                            <p class="stuexp__year">Año: 2018</p>
+                        </div>
+                    </div><!--Item-->
+
+                    <div class="stuexp__item">
+                        <div class="stuexp__img">
+                            <i class="fas fa-school"></i>
+                        </div>
+                        <div class="stuexp__text">
+                            <p class="stuexp__name">SENA</p>
+                            <p class="stuexp__degree">Titulo: Tec Diseño y Multimedia</p>
+                            <p class="stuexp__year">Año: 2020</p>
+                        </div>
+                    </div><!--Item-->
+
+                    <div class="stuexp__item">
+                        <div class="stuexp__img">
+                            <i class="fas fa-school"></i>
+                        </div>
+                        <div class="stuexp__text">
+                            <p class="stuexp__name">SENA</p>
+                            <p class="stuexp__degree">Titulo: Animación 3D</p>
+                            <p class="stuexp__year">Año: 2020</p>
+                        </div>
+                    </div><!--Item-->
+                </div>
+
+                <div class="stupexp__exp">
+                    <p class="stuexp__title">Experiencias</p>
+
+                    <div class="stuexp__item">
+                        <div class="stuexp__img">
+                            <img src="./img/sena.png" alt="Logo Sena">
+                        </div>
+                        <div class="stuexp__text">
+                            <p class="stuexp__name">Centro de Diseño y Metrología</p>
+                            <p class="stuexp__degree">Profesion: Diseñadora gráfica</p>
+                            <p class="stuexp__year">Año: Julio 2020 - Enero 2021</p>
+                        </div>
+                    </div><!--Item-->
+
+                    <div class="stuexp__item">
+                        <div class="stuexp__img">
+                            <img src="./img/sena.png" alt="Logo Sena">
+                        </div>
+                        <div class="stuexp__text">
+                            <p class="stuexp__name">SENA: CTCM</p>
+                            <p class="stuexp__degree">Profesion: Diseñadora gráfica</p>
+                            <p class="stuexp__year">Año: Septiembre 2021 - Diciembre 2021</p>
+                        </div>
+                    </div><!--Item-->
+
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="banner__skills">
+            <div class="skills__layer"></div>
+            <div class="studiesexp__head" data-aos="fade-right">
+                <h2 class="skills__title">Software</h2>
+            </div>
+
+            <div class="contenedor">
+                <div class="software__grid">
+
+                    <div class="card">
+                        <div class="box">
+                          <div class="percent">
+                            <svg>
+                              <circle cx="70" cy="70" r="70"></circle>
+                              <circle cx="70" cy="70" r="70"></circle>
+                            </svg>
+                            <div class="number">
+                              <div class="skill__grid">
+                                <img class="skill__img" src="./img/clip.png" alt="Clip Studio">
+                                <p class="skill__text">Clip Studio</p>
+                            </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div><!--Item-->
+
+                    <div class="card">
+                        <div class="box">
+                          <div class="percent">
+                            <svg>
+                              <circle cx="70" cy="70" r="70"></circle>
+                              <circle cx="70" cy="70" r="70"></circle>
+                            </svg>
+                            <div class="number">
+                              <div class="skill__grid">
+                                <img class="skill__img" src="./img/ps.png" alt="Photoshop">
+                                <p class="skill__text">Photoshop</p>
+                            </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div><!--Item-->
+
+                    <div class="card">
+                        <div class="box">
+                          <div class="percent">
+                            <svg>
+                              <circle cx="70" cy="70" r="70"></circle>
+                              <circle cx="70" cy="70" r="70"></circle>
+                            </svg>
+                            <div class="number">
+                              <div class="skill__grid">
+                                <img class="skill__img" src="./img/illustat.png" alt="Illustrator">
+                                <p class="skill__text">Illustrator</p>
+                            </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div><!--Item-->
+
+                    <div class="card">
+                        <div class="box">
+                          <div class="percent">
+                            <svg>
+                              <circle cx="70" cy="70" r="70"></circle>
+                              <circle cx="70" cy="70" r="70"></circle>
+                            </svg>
+                            <div class="number">
+                              <div class="skill__grid">
+                                <img class="skill__img" src="./img/id.png" alt="InDesign">
+                                <p class="skill__text">InDesign</p>
+                            </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div><!--Item-->
+
+                    <div class="card">
+                        <div class="box">
+                          <div class="percent">
+                            <svg>
+                              <circle cx="70" cy="70" r="70"></circle>
+                              <circle cx="70" cy="70" r="70"></circle>
+                            </svg>
+                            <div class="number">
+                              <div class="skill__grid">
+                                <img class="skill__img" src="./img/pr.png" alt="Premiere">
+                                <p class="skill__text">Premiere</p>
+                            </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div><!--Item-->
+
+                    <div class="card">
+                        <div class="box">
+                          <div class="percent">
+                            <svg>
+                              <circle cx="70" cy="70" r="70"></circle>
+                              <circle cx="70" cy="70" r="70"></circle>
+                            </svg>
+                            <div class="number">
+                              <div class="skill__grid">
+                                <img class="skill__img" src="./img/ae.png" alt="After Effects">
+                                <p class="skill__text">After Effects</p>
+                            </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div><!--Item-->
+                    
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+
+        <div data-aos="fade-right"  class="portfolio__head">
+            <h2 class="portfolio__title">Portfolio</h2>
+        </div>
+
+        <div class="banner__portfolio">
+            <div class="portfolio__layer"></div>
+            <div class="banner__text">
+                <h4 class="banner__title">Rotoscopia de Billie Jean</h4>
+            </div>
+        </div>
+
+        <div class="portfolio__videos">
+            <div id="image-slider" class="splide">
+                <div class="splide__track">
+                      <ul class="splide__list">
+                          <li class="splide__slide">
+                            <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/HfX8QE7N6Pk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          </li>
+                      </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="contenedor">
+            
+            <h2 class="portfolio__subtitle">Mis trabajos</h2>
+
+
+            <div class="portfolio__grid">
+
+                
+                <!--Item-->
+                <div data-aos="fade-up"
+                data-aos-duration="1500" class="portfolio__card">
+                <div class="porfolio__card-img">
+                    <img src="img/jinx.png" alt="Arte">
+                </div>
+    
+                    <div class="portfolio__card-title">
+                        Fan Art Jinx
+                    </div>
+    
+                    <p class="portfolio__card-text">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, unde.
+                    </p>
+    
+                    <p class="portfolio__card-tags">
+                        <span class="tags">#blender</span>
+                        <span class="tags">#rendering</span>
+                        <span class="tags">#3d</span>
+                        
+                    </p>   
+    
+                </div>
+                <!--.Item-->
+    
+                <!--Item-->
+                <div data-aos="fade-up"
+                data-aos-duration="1500" class="portfolio__card">
+                    <div class="porfolio__card-img">
+                        <img src="img/conejosao.png" alt="Arte">
+                    </div>
+    
+                    <div class="portfolio__card-title">
+                        Retrato de Conejo
+                    </div>
+    
+                    <p class="portfolio__card-text">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, unde.
+                    </p>
+    
+                    <p class="portfolio__card-tags">
+                        <span class="tags">#blender</span>
+                        <span class="tags">#rendering</span>
+                        <span class="tags">#3d</span>
+                        
+                    </p> 
+                    
+                </div>
+                <!--.Item-->
+    
+                <!--Item-->
+                <div data-aos="fade-up"
+                data-aos-duration="1500" class="portfolio__card">
+                    <div class="porfolio__card-img">
+                        <img src="img/edwyrd.png" alt="Arte">
+                    </div>
+    
+                    <div class="portfolio__card-title">
+                        Retrato de Edwyrd
+                    </div>
+    
+                    <p class="portfolio__card-text">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, unde.
+                    </p>
+    
+                    <p class="portfolio__card-tags">
+                        <span class="tags">#blender</span>
+                        <span class="tags">#rendering</span>
+                        <span class="tags">#3d</span>
+                        
+                    </p> 
+                    
+                </div>
+                <!--.Item-->
+    
+                <!--Item-->
+                <div data-aos="fade-up"
+                data-aos-duration="1600" class="portfolio__card">
+                    <div class="porfolio__card-img">
+                        <img src="img/elpepes.png" alt="Arte">
+                    </div>
+    
+                    <div class="portfolio__card-title">
+                        Diseño de Peper
+                    </div>
+    
+                    <p class="portfolio__card-text">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, unde.
+                    </p>
+    
+                    <p class="portfolio__card-tags">
+                        <span class="tags">#blender</span>
+                        <span class="tags">#rendering</span>
+                        <span class="tags">#3d</span>
+                        
+                    </p> 
+                    
+                </div>
+                <!--.Item-->
+    
+                <!--Item-->
+                <div data-aos="fade-up"
+                data-aos-duration="1600" class="portfolio__card">
+                <div class="porfolio__card-img">
+                    <img src="img/forest.jpg" alt="Arte">
+                </div>
+    
+                    <div class="portfolio__card-title">
+                        Diseño de Bosque
+                    </div>
+    
+                    <p class="portfolio__card-text">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, unde.
+                    </p>
+    
+                    <p class="portfolio__card-tags">
+                        <span class="tags">#blender</span>
+                        <span class="tags">#rendering</span>
+                        <span class="tags">#3d</span>
+                        
+                    </p> 
+                    
+                </div>
+                <!--.Item-->
+    
+    
+                <!--Item-->
+                <div data-aos="fade-up"
+                data-aos-duration="1700" class="portfolio__card">
+                    <div class="porfolio__card-img">
+                        <img src="img/habitasao.png" alt="Arte">
+                    </div>
+    
+                    <div class="portfolio__card-title">
+                        Cuarto Isometrico
+                    </div>
+    
+                    <p class="portfolio__card-text">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, unde.
+                    </p>
+    
+                    <p class="portfolio__card-tags">
+                        <span class="tags">#blender</span>
+                        <span class="tags">#rendering</span>
+                        <span class="tags">#3d</span>
+                        
+                    </p> 
+                    
+                </div>
+                <!--.Item-->
+
+            <!--.Item-->
+            </div>
+        </div>
+
+        <a href="https://www.behance.net/giieart" target="_blank" class="more">+</a>    
+       
+        
+    </section>
+
+    <section class="contactme">
+
+        <div data-aos="fade-right">
+            <div class="banner__contactme">
+                <div class="contactme__layer"></div>
+                <h2 class="contactme__title">Contact Me</h2>
+            </div>
+
+            <div class="contenedor">
+                <div class="contactme__flex">
+                    <div class="contactme__form">
+                        <form id="formulario" class="contactme__form-flex" action="">
+                            <textarea id="textarea" class="contactme__textarea" placeholder="Escriba un mensaje..." required></textarea>
+                            <button id="submit" class="contactme__button">Enviar Whatsapp</button>
+                        </form>            
+                    </div>
+            
+                    <div class="contactme__imgs">
+                        <img src="img/designergirl.svg" alt="designer">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+
+        
+    </section>
+
+    <footer class="footer">
+        <h3 data-aos="fade-up" class="footer__title">Redes Sociales</h3>
+
+        <div class="footer__redes">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/giie.art/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.behance.net/giieart" target="_blank"><i class="fab fa-behance"></i></a>
+            <a href="#textarea"><i class="fab fa-whatsapp"></i></a>
+        </div>
+
+        <div class="footer__credits">
+            <p>Todos los derechos reservados a giieart</p>
+
+            <p>Desarrollado por Alejandro Perdomo 2022</p>
+        </div>
+    </footer>
+
+    <span class="ir-arriba fas fa-chevron-up"></span>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!--Inicianlizando AOS-->
+    <script>
+        AOS.init();
+    </script>
+    
+    <script src="js/app.js"></script>
+    <script src="js/boton.js"></script>
+    <script src="js/enviarwpp.js"></script>
+</body>
+</html>
